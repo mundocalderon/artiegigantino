@@ -40,3 +40,7 @@ gem 'spring',        group: :development
 
 #heroku gems
 gem 'rails_12factor', group: :production
+
+gem 'therubyracer'
+gem 'less-rails'
+gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git', :branch => 'bootstrap3'
