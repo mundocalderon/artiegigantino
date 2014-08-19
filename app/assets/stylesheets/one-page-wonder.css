@@ -57,7 +57,7 @@ body {
     background: url('/images/shade.png'); /* or any other overlay image/color */
 }
 
-/* .featurette-divider {
+ .featurette-divider {
     margin: 80px 0;
 }
 
@@ -80,7 +80,7 @@ body {
 footer {
     margin: 50px 0;
 }
-*/
+
 
 @media(max-width:1200px) {
     .headline h1 {
@@ -91,7 +91,7 @@ footer {
         font-size: 63px;
     }
 
-     /*.featurette-divider {
+     .featurette-divider {
         margin: 50px 0;
     }
 
@@ -104,8 +104,8 @@ footer {
     }
 
     .featurette-heading {
-        font-size: 35px;
-    }*/
+        font-size: 40px;
+    }
 }
 
 @media(max-width:991px) {
@@ -116,8 +116,17 @@ footer {
     .headline h2 {
         font-size: 50px;
     }
+	
+	.image-center{
+		margin:auto;
+		
+	}
+	
+	.padded-center{
+		padding: 0 25% 0 25%;
+	}
 
-    /*.featurette-divider {
+    .featurette-divider {
         margin: 40px 0;
     }
 
@@ -134,8 +143,8 @@ footer {
     }
 
     .featurette-heading {
-        font-size: 30px;
-    }*/
+        font-size: 34px;
+    }
 }
 
 @media(max-width:768px) {
@@ -143,13 +152,13 @@ footer {
         margin: 0 15px;
     }
 
-    /*.featurette-divider {
+    .featurette-divider {
         margin: 40px 0;
     }
 
     .featurette-heading {
         font-size: 25px;
-    }*/
+    }
 }
 
 @media(max-width:668px) {
@@ -161,9 +170,9 @@ footer {
         font-size: 32px;
     }
 
-    /*.featurette-divider {
+    .featurette-divider {
         margin: 30px 0;
-    }*/
+    }
 }
 
 @media(max-width:640px) {
@@ -181,7 +190,7 @@ footer {
 }
 
 @media(max-width:375px) {
-    /*.featurette-divider {
+    .featurette-divider {
         margin: 10px 0;
     }
 
@@ -197,5 +206,5 @@ footer {
     .featurette-image.pull-right {
         margin-bottom: 10px;
         margin-left: 0;
-    }*/
+    }
 }
